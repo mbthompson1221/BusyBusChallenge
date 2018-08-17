@@ -1,0 +1,173 @@
+
+body{
+    width: 360px;
+    height: 640px;
+    font-family: roboto, serif;
+    background-color:white;
+}
+.statusbar{
+    position: absolute;
+    background-color: hsla(28, 93%, 34%, 0.88);
+    height:20px;
+    width: 360px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.clock{
+    color: white;
+    font-size: 12px;
+    float: right;
+    padding: 0 8px 0 8px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.fa.fa-wifi{
+    float: right;
+    padding: 0 0 0 8px;
+    margin-top: 4px;
+
+}
+.fa.fa-signal{
+    float: right;
+    padding: 0 0 0 8px;
+    margin-top: 4px;
+}
+.fa.fa-battery-half{
+    float:right;
+    padding: 0 0 0 8px;
+    margin-top: 4px;
+}
+nav{
+    font-size: 18px;
+    color: white;
+    width:100%;
+    background-color:#E66605;
+    display:inline-block;
+    height: 70px;
+}
+.fas.fa-arrow-left{
+    float:left;
+    padding: 35px 10px 0 15px;
+}
+.fas.fa-home{
+    vertical-align:middle;
+    padding: 35px 10px;
+    float:right;
+    display:inline;
+}
+nav h1{
+    font-family: roboto, serif;
+    font-size: 24px;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-top:20px;
+}
+.map{
+    background-image: url("images/Screenshot (31).png");
+    background-size: 380px;
+    background-repeat:no-repeat;
+    width: 99%;
+    height: 160px;
+    box-shadow: 0 9px 14px 0;
+}
+.buslist{
+    background-color: #1976D2;
+    height:270px;
+}
+.buslist h1{
+    background-color: #1976D2;
+    color: #ffffff;
+    margin: 4px;
+    padding: 15px;
+}
+.row{
+    background-color: #2196F3;
+    width: 80%;
+    height: 50px;
+    display: inline-block;
+    padding: auto;
+    margin: 3px 15px 16px 16px;
+    border-radius: 3px;
+    box-shadow: 0 3px 7px 0;
+}
+.row-Longmont{
+    float: right;
+}
+.row-Longmont li{
+    display: inline-block;
+}
+
+.row-Loveland{
+    float: right;
+}
+.row-Loveland li{
+    display: inline-block;
+}
+.row-Boulder{
+    float: right;
+}
+.row-Boulder li{
+    display: inline-block;
+}
+.number{
+    font-size: 24px;
+    padding: 10px 0 3px 1px;
+    color: #ffffff;
+    float: left;
+    font-weight:bold;
+    margin-left: -20px;
+}
+.destination{
+    font-size:14px;
+    color: #ffffff;
+    vertical-align: center;
+    padding: 15px 30px 15px 30px;
+}
+.time{
+    font-size: 24px;
+    padding: 10px;
+    font-weight:bold;
+    color: #BBDEFB;
+    float:right;
+}
+.directional-BottomNav img{
+    display: inline-block;
+}
+.Directions{
+    padding:10px 20px;
+}
+.Bus-Stop{
+    padding: 7px 20px 0 40px;
+}
+.Bus-Line{
+    float:right;
+    padding: 25px 20px 0 10px;
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    background-color: black;
+}
+.bottom-nav{
+    color: #ffffff;
+    display: inline-block;
+}
+.bottom-nav i{
+    display: inline-block;
+    margin-top: 10px;
+}
+.fa.fa-square-o{
+    float:right;
+}
+.fa.fa-circle-o{
+
+}
+.fa.fa-chevron-left{
+    float: left;
+    padding-left: 10px;
+    padding-top: 2px;
+}
