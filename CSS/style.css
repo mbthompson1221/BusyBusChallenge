@@ -1,58 +1,51 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
 body{
     font-family: 'Roboto', sans-serif;
 }
-
 h1{
-    font-size: 50px;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-weight: bold;
     display: inline-block;
-    padding: 0 127px 0 0;
+    /*padding: 0 127px 0 0;*/
 }
 .container{
     margin: 0 auto;
     width: 100%;
 }
+
 .statusbar{
     position: absolute;
     background-color: hsla(28, 93%, 34%, 0.88);
     height:auto;
     width: 100%;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 13px;
+    padding: 2px;
 }
 .clock{
     color: white;
-    font-size: 50px;
+    font-size: 13px;
     float: right;
-    padding: 5px 30px 0 30px;
+    /*padding: 5px 30px 0 30px;*/
     text-align: center;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 .wifi{
     color:white;
-    height: 50px;
+    height: 13px;
     float: right;
-    margin-top: 20px;
-    padding-top: 5px;
+    /*margin-top: 20px;*/
+    /*padding-top: 5px;*/
 }
 .battery{
     color: #ffffff;
-    height: 50px;
+    height: 13px;
     float: right;
-    margin: 20px 20px 20px;
+    /*margin: 20px 20px 20px;*/
 }
 .topNav{
     height: auto;
@@ -62,53 +55,57 @@ h1{
     background-color:#E66605;
 }
 .AppTopNav{
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     text-align: center;
-    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+    /*padding-bottom: 20px;*/
 }
 .fa-arrow-left {
-    padding: 32px 90px 0 0;
-    font-size: 50px;
-    width: 20%;
+    padding: 0 10px;
+    font-size: 24px;
     text-align: center;
 }
 .fa-home{
     vertical-align: middle;
-    padding: 32px 0 30px 60px;
+    padding: 0 10px 0 0;
     text-align: center;
-    width: 20%;
-    font-size: 50px;
+    font-size: 24px;
 }
 .WashingtonAndStateNav{
     font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    padding: 12px 20px;
+    font-size: 24px;
+    /*padding: 12px 20px;*/
     display: inline-block;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     text-align: center;
     font-weight: bold;
 }
-
-/* For width smaller than 400px: */
 .map{
     background: url("../Images/Map.png") no-repeat;
     width: 100%;
-    height: 345px;
+    height: 200px;
     background-size: cover;
 }
-.buslist {
+.buslist{
     background-color: #1976D2;
-    height: auto;
     width: 100%;
-    padding: 30px;
+    height: 270px;
+    overflow-y: scroll;
+}
+.ApproachingBuses{
+    padding: 10px;
+    text-align: left;
 }
 .row{
     background-color: #2196F3;
     width: 90%;
     height: auto;
-    margin: 40px 0 5px 50px;
     border-radius: 3px;
     box-shadow: 0 3px 7px 0;
+    margin: 20px;
 }
 .row-Eastbound li{
     display: inline-block;
@@ -125,27 +122,48 @@ h1{
 .row-OutofService li{
     display: inline-block;
 }
+.frequency::before{
+    content:"•";
+}
+li{
+    margin-top: 5px;
+}
 .line{
-    font-size: 40px;
-    padding: 10px;
+    font-size: 24px;
+    /*padding: 10px;*/
     color: #ffffff;
     font-weight: bold;
-    margin-left: 30px;
-    width: 30%;
+    /*margin-left: 30px;*/
+    width: 20%;
     text-align: center;
 }
 .destination{
-    font-size: 20px;
+    font-size: 14px;
     color: #ffffff;
-    padding: 18px;
-    width: 30%;
+    /*padding: 18px;*/
+    width: 40%;
     text-align: center;
 }
 .frequency{
-    font-size: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    width: 45%;
+}
+.location{
+    font-size: 14px;
+    color: #ffffff;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.time{
+    font-size: 24px;
     font-weight: bold;
     color: #BBDEFB;
     text-align: center;
+    width: 30%;
 }
 .bottomNav{
     height: auto;
@@ -153,26 +171,23 @@ h1{
     color: white;
     width:100%;
     background-color:#E66605;
-}
-.directional-BottomNav img{
-    display: inline-block;
-    margin: 30px 80px 30px 80px;
-    vertical-align: middle;
+    padding: 10px;
 }
 .Directions{
-    /*padding:10px 20px;*/
-    height: 100px;
-    /*margin: 0 50px 70px;*/
+    display: inline-block;
+    width: 30%;
+    text-align: center;
 }
-.Bus-Stop{
-    height: 100px;
-    /*margin: 0 160px 60px;*/
+.Bus-Stop {
+     display: inline-block;
+    width: 30%;
+    text-align: center;
+ }
+.Bus-Line {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
 }
-.Bus-Line{
-    height: 25px;
-    margin-bottom: 60px;
-}
-
 footer{
     width: 100%;
     height: auto;
@@ -180,12 +195,16 @@ footer{
 }
 .bottom-nav{
     color: #ffffff;
+    display: inline-block;
+    height: auto;
+    width: 100%;
 }
 .bottom-nav i{
     display: inline-block;
-    margin-top: 25px;
-    padding: 0 0 20px 150px;
-    font-size: 30px;
+    padding: 10px;
+    /*margin-top: 25px;*/
+    /*padding: 0 0 20px 150px;*/
+    font-size: 16px;
 }
 .fa-square{
     width: 30%;
@@ -199,5 +218,4 @@ footer{
 .fa.fa-chevron-left{
     width: 30%;
     text-align: center;
-    padding-right: 150px;
 }
