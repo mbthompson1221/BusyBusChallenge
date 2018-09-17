@@ -18,9 +18,8 @@ h1{
 }
 
 .statusbar{
-    position: absolute;
     background-color: hsla(28, 93%, 34%, 0.88);
-    height:auto;
+    height:23px;
     width: 100%;
     color: #ffffff;
     font-size: 13px;
@@ -49,40 +48,39 @@ h1{
     /*margin: 20px 20px 20px;*/
 }
 .topNav{
-    height: auto;
     font-size: 40px;
     color: white;
     width:100%;
     background-color:#E66605;
+    padding: 0 15px 15px 15px;
 }
-.AppTopNav{
-    /*padding-top: 100px;*/
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    padding: 10px;
-    /*padding-bottom: 20px;*/
-}
+/*.AppTopNav{*/
+    /*text-align: center;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*display: inline-block;*/
+    /*padding: 0 15px 15px 15px;*/
+/*}*/
 .fa-arrow-left {
-    padding: 0 10px;
     font-size: 24px;
-    text-align: center;
+    float: left;
+    padding-top:15px ;
+    width: 10%;
 }
 .fa-bars{
     vertical-align: middle;
-    padding: 0 10px 0 0;
-    text-align: center;
+    padding-top: 15px;
     font-size: 24px;
+    float: right;
 }
 .WashingtonAndStateNav{
     font-family: "Roboto", sans-serif;
     font-size: 24px;
-    padding: 7px;
     display: inline-block;
-    margin-top: 20px;
     text-align: center;
     font-weight: bold;
+    width: 80%;
+    padding-top: 15px;
 }
 .map{
     background: url(../Images/Map.png) no-repeat;
@@ -109,59 +107,57 @@ h1{
     box-shadow: 0 3px 7px 0;
     margin: 20px;
 }
-.row-Eastbound li{
+.row-Eastbound{
+    height: 89px;
     display: inline-block;
 }
-.row-Northbound li{
-    display: inline-block;
-}
-.row-Southbound li{
-    display: inline-block;
-}
-.row-Reroute li{
-    display: inline-block;
-}
-.row-OutofService li{
-    display: inline-block;
-}
-.frequency::before{
-    content:"•";
-}
-li{
-    margin-top: 5px;
-}
+/*li{*/
+    /*margin-top: 5px;*/
+/*}*/
 .line{
     font-size: 24px;
     /*padding: 10px;*/
     color: #ffffff;
     font-weight: bold;
     /*margin-left: 30px;*/
-    width: 20%;
-    text-align: center;
+    /*width: 20%;*/
+    /*text-align: center;*/
+    float: left;
+    clear: both;
 }
 .destination{
     font-size: 14px;
     color: #ffffff;
     /*padding: 18px;*/
-    width: 40%;
-    text-align: center;
+    /*width: 40%;*/
+    /*text-align: center;*/
+    float: left;
 }
-.locationFrequency{
+.location{
     font-size: 13px;
-    color: #ffffff;
-    width: 85%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /*width: 85%;*/
+    /*text-align: center;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
     color: #00008b;
-
+    font-weight: normal;
+}
+.frequency{
+    font-size: 13px;
+    /*width: 85%;*/
+    /*text-align: center;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    color: #00008b;
+    font-weight: normal;
 }
 .time{
     font-size: 24px;
     font-weight: bold;
     color: #BBDEFB;
-    text-align: center;
-    width: 30%;
+    /*text-align: center;*/
+    /*width: 30%;*/
+    float: right;
 }
 .bottomNav{
     height: auto;
