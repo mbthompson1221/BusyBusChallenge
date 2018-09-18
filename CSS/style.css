@@ -120,10 +120,14 @@ h1{
     height: 55px;
 }
 .row-OutofService{
-    height: 165px;
+    height: 230px;
 }
 .bottom-border{
     height: 55px;
+    border-bottom: 1px solid white;
+}
+.bottom-border-OutofService{
+    height: 80px;
     border-bottom: 1px solid white;
 }
 /*li{*/
@@ -177,7 +181,7 @@ h1{
     padding-right: 15px;
     line-height: 15px;
     /*text-align: center;*/
-    /*width: 30%;*/
+    width: 33%;
     float: right;
 }
 .bottomNav{
